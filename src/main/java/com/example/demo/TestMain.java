@@ -12,6 +12,8 @@ public class TestMain {
 		ClassB o1 = (ClassB) applicationContext.getBean("b");
 		o.say();
 		o1.say();
+		System.out.println("HI Hello");
+		System.out.println("HI Hello566");
 	}
 
 }
